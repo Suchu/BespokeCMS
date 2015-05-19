@@ -1,0 +1,7 @@
+<?php
+function theme_menu_options() {
+    // add_theme_page( $page_title, $menu_title, $capability, $menu_slug, $function);
+    add_theme_page('theme Options', 'theme Options', 'edit_theme_options', 'theme-settings', 'theme_admin_options_page');
+}
+
+?>
